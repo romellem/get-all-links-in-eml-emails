@@ -20,5 +20,5 @@ We [glob](https://www.npmjs.com/package/globby) through our EML files, read them
 and parse its contents using [mailparser](https://www.npmjs.com/package/mailparser)
 to extract the HTML body from the actual email. Then we pass that HTML into
 [JSDOM](https://www.npmjs.com/package/jsdom) so we can easily `querySelectorAll`
-to het all `<a>` tags. Then, we simply write all of the href's of those links 
+to get all `<a>` tags. Then, we simply write all of the href's of those links 
 out to a file.
