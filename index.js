@@ -33,7 +33,7 @@ glob('./emails/*.eml').then(files => {
 
             stream.write('\n' + '###### ' + file + ' ######' + '\n');
             for (let i = 0; i < links.length; i++) {
-                // Write our links out to our
+                // Write our links out to our file, 'links.txt'
                 stream.write(links[i].href.toString() + '\n');
             }
         });
